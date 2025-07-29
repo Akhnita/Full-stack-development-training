@@ -24,6 +24,8 @@
 </html>
 <!--Tailwind uses a mobile-first approach, meaning that styles are applied to smaller screens first and then adjusted for larger screens using responsive prefixes like sm:, md:, lg:, etc.-->
 
+
+<!--Dark mode in Tailwind-->
 <html>
     <head>
         <script src="https://cdn.tailwindcss.com"></script>
@@ -34,3 +36,33 @@
          Dark mode enabled!
          </div>
     </body>
+</html>
+  
+
+     <!--Accent-->
+<html>
+    <head>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>  
+        <div class="my-4 flex-col text-white nl-2">
+            <label> <input type="checkbox" checked/> Browser default </label>
+            <label> <input type="checkbox" class="accent-pink-500" checked/> Customized </label>
+        </div>
+
+        <!--Fluid Texts-->
+        <p class="text-7xl text5xl">Something nice</p>
+        <p class="text=[min(10vw,70px)]">Somethind Fluid</p>
+        <!--File-->
+        <label class="my-4 block">
+            <input type="file" class="block w-full text-sm text-slate-500 file:nr-4 file:rounded-full file:border-0 file:bg-violet-50 file:px-4 file:py-2 file:text-sm file:font-semibold file:text-violet-700 hover:file:bg-violet-100"/>
+
+        </label>
+        <!--Highlight-->
+        <div class="selection:bg-green-400 selection:text-white">
+            <p>So I started to walk into the water.I won't lie to you boys</p>>
+    </body>
+</html>
+
+
+ 

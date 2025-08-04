@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { EventHandle } from './EventHandle'
+import { LearningState } from './LearningState'    
+import { Counter } from './Counter'
+import { StateTypeOfArray } from './StateTypeOfArray'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>-------learning event handle-------</p>
+      <EventHandle />
+
+      <p>-------learning state-------</p>
+      <LearningState/>
+      
+      <P>-------counter component using state-------</P>
+      <Counter />
+                
+      <p>-------state type of array-------</p>
+      <StateTypeOfArray />
     </div>
   );
 }
-
 export default App;

@@ -8,7 +8,7 @@ let db;
 
 app.use(express.json())
 app.use(cors({
-    origin: "https://github.com/Akhnita/todo-app-frontend.git"
+    origin: "https://todo-app-frontend-hmc1.onrender.com"
 }));
 
 app.listen(port, async () => {

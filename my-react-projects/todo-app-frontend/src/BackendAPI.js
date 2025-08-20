@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const host ="https://todo-app-backend-riaw.onrender.com" 
+const host ="https://todo-app-frontend-hmc1.onrender.com" 
 
 async function callCreateAPI(apiPath, body) {
     console.log(`inside callCreateAPI`)
